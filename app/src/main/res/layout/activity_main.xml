@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.npatel.myapplication.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange">
+
+        <TextView
+            android:id="@+id/number"
+            style="@style/Categories"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Number"
+            android:textColor="@android:color/black" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green">
+
+        <TextView
+            android:id="@+id/familymember"
+            style="@style/Categories"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Family Member"
+            android:textColor="@android:color/black" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/violate">
+
+        <TextView
+            android:id="@+id/color"
+            style="@style/Categories"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Color"
+            android:textColor="@android:color/black" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/skyblue">
+
+        <TextView
+            android:id="@+id/phrases"
+            style="@style/Categories"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="phrases"
+            android:textColor="@android:color/black" />
+    </FrameLayout>
+
+</LinearLayout>
